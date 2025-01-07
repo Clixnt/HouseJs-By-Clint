@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 20px;
+    height: 100svh;
     background-color: var(--background-ui-dark);
 
     @media (width >= 451px) {
@@ -45,6 +45,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap: 25px;
   height: auto;
 
   @media (width <= 450px) {
