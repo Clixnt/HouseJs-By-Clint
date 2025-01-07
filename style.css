@@ -4,12 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    height: 100svh;
     background-color: var(--background-ui-dark);
-
-    @media (width >= 451px) {
-      justify-content: center !important;
-    }
 }
 * {
     padding: 0;
@@ -45,7 +40,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  gap: 25px;
+  gap: 30px;
   height: auto;
 
   @media (width <= 450px) {
@@ -132,6 +127,7 @@ main {
     max-width: 50px;
   }
 }
+
 .window::before,
 .window::after {
   content: '';
@@ -153,6 +149,7 @@ main {
 
   }
 }
+
 .door {
   bottom: 25px;
   right: 80px;
@@ -171,6 +168,7 @@ main {
     max-width: 40px;
   }
 }
+
 .door::before {
   content: '';
   position: absolute;
@@ -189,6 +187,7 @@ main {
     width: 7px;
   }
 } 
+
 .grass {
   bottom: 25px;
   left: 75px;
@@ -207,6 +206,7 @@ main {
     width: 40px;
   }
 }
+
 .grass::before {
   content: '';
   position: absolute;
@@ -225,6 +225,7 @@ main {
     width: 50px;
   }
 }
+
 .grass::after {
   content: '';
   position: absolute;
@@ -274,7 +275,7 @@ main {
           box-shadow: var(--CssScan-ShadowBox);
 
           &:nth-child(6) {
-            width: 50%;
+            width: 100%;
       }
     }
   }
