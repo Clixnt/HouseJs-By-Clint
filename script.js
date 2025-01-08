@@ -4,6 +4,7 @@ const wallDsgn = document.getElementById("wallDsgn");
 const roofDsgn = document.getElementById("roofDsgn");
 const windowDsgn = document.getElementById("windowDsgn");
 const doorDsgn = document.getElementById("doorDsgn");
+const bellDsgn = document.getElementById("bellDsgn");
 const GrassDsgn = document.getElementById("GrassDsgn");
 
 // • Buttons
@@ -21,6 +22,7 @@ reset.onclick = function() {
     GrassDsgn.style.display = "none";
     doorDsgn.style.display = "none";
     windowDsgn.style.display = "none";
+    bellDsgn.style.display = "none";
 };
 
 roof.onclick = function() {
@@ -34,6 +36,7 @@ wall.onclick = function() {
 
 door.onclick = function() {
     doorDsgn.style.display = "block";
+    bellDsgn.style.display = "block";
 };
 
 windows.onclick = function() {
@@ -46,4 +49,5 @@ ediwaw.onclick = function() {
     GrassDsgn.style.display = "block";
     doorDsgn.style.display = "block";
     windowDsgn.style.display = "block";
+    bellDsgn.style.display = "block";
 }
